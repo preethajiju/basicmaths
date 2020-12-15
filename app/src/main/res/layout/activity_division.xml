@@ -1,0 +1,41 @@
+<LinearLayout android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/additionbackground"
+    android:orientation="vertical"
+    android:gravity="center">
+    <EditText
+        android:gravity="center"
+        android:hint="Enter No.1"
+        android:id="@+id/num1"
+        android:textColorHint="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:gravity="center"
+        android:hint="Enter No.2"
+        android:id="@+id/num2"
+        android:textColorHint="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="MULTIPLY"
+        android:textColor="#BB0006"
+        android:layout_margin="10dp"
+        android:onClick="divevent"
+        android:background="@drawable/operationroundbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="BACK TO LOGIN"
+        android:textColor="#BB0006"
+        android:layout_margin="10dp"
+        android:onClick="loginevent"
+        android:background="@drawable/operationroundbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+
+</LinearLayout>

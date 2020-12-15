@@ -1,0 +1,49 @@
+<LinearLayout android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/mybackground">
+    <TextView
+        android:text="MATHEMATICAL OPERATIONS"
+        android:gravity="center"
+        android:textColor="#EAF0F1"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="ADDITION"
+        android:textColor="#EAF0F1"
+        android:layout_margin="10dp"
+        android:onClick="additionevent"
+        android:background="@drawable/roundbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="SUBTRACTION"
+        android:textColor="#EAF0F1"
+        android:layout_margin="10dp"
+        android:onClick="subtractionevent"
+        android:background="@drawable/roundbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="MULTIPLICATION"
+        android:textColor="#EAF0F1"
+        android:layout_margin="10dp"
+        android:onClick="multiplyevent"
+        android:background="@drawable/roundbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="DIVISION"
+        android:textColor="#EAF0F1"
+        android:layout_margin="10dp"
+        android:onClick="divisionevent"
+        android:background="@drawable/roundbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>
