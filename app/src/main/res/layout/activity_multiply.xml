@@ -7,6 +7,7 @@
     <EditText
         android:gravity="center"
         android:hint="Enter No.1"
+        android:inputType="number"
         android:id="@+id/num1"
         android:textColorHint="@color/black"
         android:layout_width="match_parent"
@@ -14,6 +15,7 @@
     <EditText
         android:gravity="center"
         android:hint="Enter No.2"
+        android:inputType="number"
         android:id="@+id/num2"
         android:textColorHint="@color/black"
         android:layout_width="match_parent"
@@ -32,6 +34,13 @@
         android:layout_margin="10dp"
         android:onClick="loginevent"
         android:background="@drawable/operationroundbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/myresult"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
